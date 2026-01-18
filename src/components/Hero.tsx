@@ -1,6 +1,10 @@
+// @ts-nocheck
+
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
+import Antigravity from "./Antigravity";
+import TextType from "./TextType";
 
 const Hero = () => {
   return (
@@ -13,6 +17,25 @@ const Hero = () => {
       />
 
       <div className="container mx-auto px-6 py-20 relative z-10">
+        <div style={{ width: "100%", height: "100%", position: "absolute" }}>
+          <Antigravity
+            count={300}
+            magnetRadius={10}
+            ringRadius={10}
+            waveSpeed={0.4}
+            waveAmplitude={1}
+            particleSize={2}
+            lerpSpeed={0.1}
+            color="#05cdff"
+            autoAnimate={false}
+            particleVariance={1}
+            rotationSpeed={0}
+            depthFactor={1}
+            pulseSpeed={3}
+            particleShape="capsule"
+            fieldStrength={10}
+          />
+        </div>
         <div className="max-w-4xl mx-auto text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -42,7 +65,31 @@ const Hero = () => {
           >
             A passionate{" "}
             <span className="text-foreground font-medium">
-              Fullstack Developer
+              <TextType
+                text={[
+                  "Front-End Developer",
+                  "Back-End Developer",
+                  "FullStack Engineer",
+                  "UX/UI Designer",
+                  "Systems Developer",
+                  "Data Analyst",
+                  "Tech Support",
+                  "Hardware Advisor",
+                ]}
+                typingSpeed={75}
+                pauseDuration={1500}
+                showCursor
+                cursorCharacter="_"
+                texts={[
+                  "Welcome to React Bits! Good to see you!",
+                  "Build some amazing experiences!",
+                ]}
+                deletingSpeed={50}
+                variableSpeedEnabled={false}
+                variableSpeedMin={60}
+                variableSpeedMax={120}
+                cursorBlinkDuration={0.5}
+              />
             </span>{" "}
             ready to turn ideas into reality. No corporate experience yet — just
             pure dedication, curiosity, and a portfolio of projects I built from

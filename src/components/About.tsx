@@ -36,10 +36,10 @@ const About = () => {
           className="max-w-3xl mx-auto text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Why Give Me a <span className="text-gradient">Chance?</span>
+            How can I <span className="text-gradient">contribute to your company?</span>
           </h2>
           <p className="text-lg text-muted-foreground leading-relaxed">
-            I know my resume might not have big company names. What it does have is a trail of projects, 
+            This resume is full of hard work. It does have a trail of projects, 
             late-night debugging sessions, and an unwavering commitment to becoming better every single day. 
             Here's what I bring to the table:
           </p>
@@ -72,8 +72,7 @@ const About = () => {
           className="mt-16 p-8 rounded-2xl glass max-w-3xl mx-auto text-center"
         >
           <p className="text-lg text-muted-foreground italic">
-            "Everyone starts somewhere. I'm just looking for that first opportunity to prove myself. 
-            Once I'm in, I'll work harder than anyone to deliver results."
+            "We are what we repeatedly do. Excellence, then, is not an act, but a habit"<br/>-Aristotle
           </p>
         </motion.div>
       </div>
