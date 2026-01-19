@@ -48,9 +48,11 @@ const Navbar = () => {
                 {link.name}
               </a>
             ))}
-            <Button size="sm" className="glow-primary">
-              Hire Me
-            </Button>
+            <a href="https://wa.me/573164187146?text=I'm%20interested%20in%20hiring%20your%20services%20as%20a%20Developer!">
+              <Button size="sm" className="glow-primary">
+                Hire Me
+              </Button>
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -84,9 +86,11 @@ const Navbar = () => {
                 {link.name}
               </a>
             ))}
-            <Button size="sm" className="glow-primary w-fit">
-              Hire Me
-            </Button>
+            <a href="https://wa.me/573164187146?text=I'm%20interested%20in%20hiring%20your%20services%20as%20a%20Developer!">
+              <Button size="sm" className="glow-primary w-fit">
+                Hire Me
+              </Button>
+            </a>
           </motion.div>
         )}
       </div>
