@@ -102,10 +102,10 @@ const Hero = () => {
             transition={{ duration: 0.6, delay: 0.3 }}
             className="flex flex-col sm:flex-row gap-4 justify-center mb-12"
           >
-            <Button size="lg" className="glow-primary text-lg px-8">
+            <Button size="lg" className="glow-primary text-lg px-8 z-10">
               <a href="#projects">View My Work</a>
             </Button>
-            <Button size="lg" variant="outline" className="text-lg px-8">
+            <Button size="lg" variant="outline" className="text-lg px-8 z-10">
               <a
                 href="https://drive.google.com/drive/folders/13OXT4bmdhdgCwuOQx0HAMJLkrf5VMbvu?usp=sharing"
                 target="blank"
