@@ -16,27 +16,27 @@ const Hero = () => {
         style={{ animationDelay: "1.5s" }}
       />
 
-      <div className="container mx-auto px-6 py-20 relative z-10">
+      <div className="w-full h-dvh mx-auto px-6 py-20 relative z-10">
         <div style={{ width: "100%", height: "100%", position: "absolute" }}>
           <Antigravity
-            count={300}
-            magnetRadius={10}
-            ringRadius={10}
-            waveSpeed={0.4}
-            waveAmplitude={1}
-            particleSize={2}
-            lerpSpeed={0.1}
-            color="#05cdff"
+            ccount={3400}
+            magnetRadius={41}
+            ringRadius={18}
+            waveSpeed={0}
+            waveAmplitude={5}
+            particleSize={0.9}
+            lerpSpeed={0.16}
+            color="#6fd0e1"
             autoAnimate={false}
-            particleVariance={1}
+            particleVariance={0.6}
             rotationSpeed={0}
-            depthFactor={1}
+            depthFactor={3.5}
             pulseSpeed={3}
-            particleShape="capsule"
-            fieldStrength={10}
+            particleShape="box"
+            fieldStrength={5}
           />
         </div>
-        <div className="max-w-4xl mx-auto text-center">
+        <div className="max-w-4xl mx-auto h-dvh text-center flex flex-col justify-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
