@@ -54,7 +54,7 @@ const Hero = () => {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="text-5xl md:text-7xl font-bold mb-6 leading-tight"
           >
-            Hi, I'm <span className="text-gradient">Steven</span>
+            Hi, I'm <span className="text-gradient">Steven!</span>
           </motion.h1>
 
           <motion.p
@@ -130,7 +130,7 @@ const Hero = () => {
               <Github className="w-6 h-6 text-muted-foreground group-hover:text-primary transition-colors" />
             </a>
             <a
-              href="www.linkedin.com/in/steven-gómez-49aa87236"
+              href="https://www.linkedin.com/in/steven-gómez-49aa87236"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full glass hover:bg-primary/20 transition-colors group"
