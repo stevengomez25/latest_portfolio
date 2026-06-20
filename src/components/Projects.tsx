@@ -34,9 +34,9 @@ const projects = [
   {
     title: "Training Scheduler",
     description: "Personal time administration app to promote more organization as customer appointments keep organized, sorted and updated based on the trainer's priorities.",
-    tech: ["React", "Typescript", "Node.js", "MongoDB"],
-    github: "https://github.com/stevengomez25/s-frontend",
-    live: "https://alexcn.netlify.app",
+    tech: ["React Native", "Typescript", "Node.js", "MongoDB"],
+    github: "https://github.com/stevengomez25/schedule-mobile-app",
+    live: "https://scdalex.netlify.app/",
   },
   {
     title: "New Portfolio",
