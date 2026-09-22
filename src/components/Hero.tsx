@@ -102,8 +102,8 @@ const Hero = () => {
         style={{ animationDelay: "1.5s" }}
       />
 
-      <div className="w-full h-dvh mx-auto px-6 py-20 relative z-10 flex flex-col justify-center">
-        <div className="max-w-5xl mx-auto text-center flex flex-col items-center justify-center relative z-10 w-full mt-12">
+      <div className="w-full min-h-dvh mx-auto px-6 pt-28 pb-16 md:py-20 relative z-10 flex flex-col justify-center items-center">
+        <div className="max-w-5xl mx-auto text-center flex flex-col items-center justify-center relative z-10 w-full">
           
           <motion.div
             initial={{ opacity: 0, y: 20 }}
